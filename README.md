@@ -184,7 +184,7 @@ $ sbt
 
 A graphql query result is usually modelled with case classes, enums and traits.
 Writing these query result classes is tedious and error prone. `sbt-graphql` can
-generate the correct models for every graphql query.
+generate the correct client-side models for every graphql query.
 
 A lot of insipration came from [apollo codegen](https://github.com/apollographql/apollo-codegen).
 Make sure to check it out for scalajs, typescript and plain javascript projects.
